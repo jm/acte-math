@@ -1,0 +1,16 @@
+QUESTIONS=[
+    ["What is 12+12?","24"],
+    ["What is 12*7?","84"],
+    ["What is 7*8?","56"],
+    ["what is 7*6?","42"],
+    ["what is 9*6?","54"],
+    ["what is 8*9?","72"],
+    ["what is 6*10?","60"],
+    ["what is 12*9?","108"],
+    ["what is 7*4?","28"],
+    ["9 squared","81"],
+    ["7 squared","49"],
+    ["13 squared","169"],
+    ["does 1/4 equal?",".25" ],
+    ["does 7/8 equal?", ".875"],
+]

@@ -1,0 +1,9 @@
+<h1>Q<%= @question_number %>. <%= @question %></h1>
+<form method="post" action="/question/<%= @number %>/answer">
+  <label>answer
+  <input type="text" name="answer" id="answer" />
+  </label>
+  <p>
+  <input type="submit" name="button" id="button" value="Submit answer" />
+  </p>
+</form>
