@@ -6,7 +6,7 @@ require 'sinatra'
 require 'questions'
 
 # Sets cookies so it can automatically remember it for the future
-set_option :sessions, true
+set :sessions, true
 
 get "/" do
   # When question is 1 score is 0
@@ -25,6 +25,9 @@ get "/question" do
   # Picks questions at random
   @number = rand(QUESTIONS.length)
   @question = QUESTIONS[@number][0]
+  
+  # Pulling user's score out of session
+  @score = session["score"]
   
   # Sets the question number
   @question_number = session["question"]
